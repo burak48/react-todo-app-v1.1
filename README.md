@@ -5,25 +5,23 @@ This is a todo list app built with React.
 ## Local Usage
 
 ```
-$ git clone https://github.com/burak48/react-todo-app.git
-$ cd react-todo-app
+$ git clone https://github.com/burak48/react-todo-app-v1.1.git
+$ cd react-todo-app-v1.1
 $ npm install
 $ npm start
 ```
 
 ## Demo 
 
-Demo deployment: example API call from the React UI is fetched with a relative URL that is served by an Express handler in the Node server.
-
-Try the demo at [heroku](https://agile-caverns-20645.herokuapp.com/).
+Try the demo at [heroku](https://react-todo-app-2.herokuapp.com/).
 
 ## Deploy to Heroku
 
 ```
 $ git init
-$ heroku create react-todo-app --buildpack https://github.com/burak48/react-todo-app.git
+$ heroku create react-todo-app-2 --buildpack https://github.com/burak48/react-todo-app-v1.1.git
 $ git add .
-$ git commit -m "react-todo-app-deploy-heroku"
+$ git commit -m "react-todo-app-2-deploy-heroku"
 $ git push heroku master
 $ heroku open
 ```
